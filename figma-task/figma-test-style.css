@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+  }
+
+   A:link {
+     COLOR: #050035; 
+     TEXT-DECORATION: none;
+     font-weight: normal 
+    }
+    A:hover { 
+        COLOR:  #FFC727;
+         TEXT-DECORATION: none;
+          font-weight: none }
+
+/* LOGO */
+
+.logo {
+  width: 2;
+}
+
+/* @media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+} */
+
+.logo > img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  /* @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  } */
+  
+  /* NAV */
+
+nav {
+    font-weight: 400;
+    justify-content: center;
+}
+
+/* @media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+      display: inline;
+    }
+  } */
+
+  .nav-list {
+    display: flex;
+    text-align: center;
+  }
+
+  nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  @media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+
+  .navi {
+    align-items: center;
+    margin-right: 3em;
+  }
+
+/*BUTTONS */
+
+.log-in_button {
+    display: inline-grid;
+    place-items: center;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 8px;
+    background-color: transparent;
+    isolation: isolate;
+    cursor: pointer;
+    border: 1px solid #E9D961 ;
+}
+
+.sign-up_button {
+    background: #E9D961;
+    border: 1px solid #E9D961;
+    border-radius: 8px;
+}
+
+.log-in-button {
+    margin-right: 1em;
+}
+.first-div {
+    background-color: #050035;
+    margin-top: 4.9em;
+    position: relative;
+    display: flex;
+    max-height: fit-content;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.male-bar {
+  width: 40%;
+  float: right;
+}
+
+.female-bar { float: right;
+  width: 40%;
+  display: flex;
+}
+
+
+
+body {
+    background-color: palegoldenrod;
+}
